@@ -39,7 +39,6 @@ This guide explains how to configure Git to work seamlessly with different signi
 
     [commit]
     gpgsign = true
-    template = ~/.stCommitMsg
 
     [core]
     excludesfile = ~/.gitignore_global
