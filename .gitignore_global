@@ -1,0 +1,12 @@
+*~
+.DS_Store
+.zip
+.sql
+.secret
+.log
+.error-log
+
+# Ignore most common SSH keys and garbage files
+*id_rsa*
+*ed25519*
+known_hosts*

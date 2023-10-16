@@ -1,0 +1,20 @@
+[includeIf "gitdir:~/Code/WT/"]
+  path = .gitconfig-wt
+
+[includeIf "gitdir:~/Code/Personal/"]
+  path = .gitconfig-personal
+
+[user]
+  name = Brian Veltman
+
+[gpg]
+  format = ssh
+
+[gpg "ssh"]
+  program = "/Applications/1Password.app/Contents/MacOS/op-ssh-sign"
+
+[commit]
+  gpgsign = true
+
+[core]
+  excludesfile = ~/.gitignore_global
