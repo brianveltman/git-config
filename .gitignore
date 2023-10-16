@@ -1,0 +1,4 @@
+*.pub
+id_rsa*
+*ed25519*
+known_hosts*

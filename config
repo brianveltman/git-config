@@ -1,0 +1,18 @@
+## DEFAULT IDENTITY AGENT
+Host *
+  AddKeysToAgent yes
+  UseKeychain no
+  IdentityAgent "~/.1password/agent.sock"
+
+## Specify hosts below that will not use SSH keys stored in 1Password
+
+# Host ec2-server
+#   HostName 73.55.23.43
+#   User ec2-user
+#   IdentityFile ~/.ssh/ssh-key-not-on-1password.pem
+#   IdentityAgent none
+
+# Host github.com
+#  AddKeysToAgent yes
+#  UseKeychain yes
+#  IdentityFile ~/.ssh/github-key-ed25519
